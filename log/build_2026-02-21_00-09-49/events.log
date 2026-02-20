@@ -1,0 +1,431 @@
+[0.000000] (-) TimerEvent: {}
+[0.009278] (ros2_custom_msgs) JobQueued: {'identifier': 'ros2_custom_msgs', 'dependencies': OrderedDict()}
+[0.009348] (ros2_custom_msgs) JobStarted: {'identifier': 'ros2_custom_msgs'}
+[0.033029] (ros2_custom_msgs) JobProgress: {'identifier': 'ros2_custom_msgs', 'progress': 'cmake'}
+[0.034021] (ros2_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/dharani/ros2_ws/src', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/dharani/ros2_ws/install/ros2_custom_msgs'], 'cwd': '/home/dharani/ros2_ws/build/ros2_custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'dharani', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1587', 'ROS_PACKAGE_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/share', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dharani', 'OLDPWD': '/home/dharani/ros2_ws/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dharani/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dharani', 'WINDOWID': '62919056', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dharani-VirtualBox:@/tmp/.ICE-unix/1334,unix/dharani-VirtualBox:/tmp/.ICE-unix/1334', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/dharani/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-YSsnZRV6Njyg/agent.1586', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/dharani', 'AMENT_PREFIX_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/dharani/ros2_ws/build/ros2_custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/dharani/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099934] (-) TimerEvent: {}
+[0.203477] (-) TimerEvent: {}
+[0.304349] (-) TimerEvent: {}
+[0.405581] (-) TimerEvent: {}
+[0.447390] (ros2_custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.507754] (-) TimerEvent: {}
+[0.608521] (-) TimerEvent: {}
+[0.653509] (ros2_custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.695636] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.710192] (-) TimerEvent: {}
+[0.811570] (-) TimerEvent: {}
+[0.910505] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.920343] (-) TimerEvent: {}
+[0.947357] (ros2_custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.954382] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.962140] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.021548] (-) TimerEvent: {}
+[1.027770] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.125695] (-) TimerEvent: {}
+[1.225945] (-) TimerEvent: {}
+[1.330202] (-) TimerEvent: {}
+[1.355113] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.365393] (ros2_custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.367935] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.371014] (ros2_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.383623] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.432014] (-) TimerEvent: {}
+[1.533823] (-) TimerEvent: {}
+[1.642393] (-) TimerEvent: {}
+[1.645806] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.742574] (-) TimerEvent: {}
+[1.843683] (-) TimerEvent: {}
+[1.868494] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.937399] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.946338] (-) TimerEvent: {}
+[1.962927] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.992673] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.019371] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.049438] (-) TimerEvent: {}
+[2.155107] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.155320] (-) TimerEvent: {}
+[2.155427] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.256117] (-) TimerEvent: {}
+[2.357679] (-) TimerEvent: {}
+[2.359859] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.401421] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.448434] (ros2_custom_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.458461] (-) TimerEvent: {}
+[2.565592] (-) TimerEvent: {}
+[2.578849] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.604070] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.672013] (-) TimerEvent: {}
+[2.782579] (-) TimerEvent: {}
+[2.883695] (-) TimerEvent: {}
+[2.985433] (-) TimerEvent: {}
+[3.087610] (-) TimerEvent: {}
+[3.188442] (-) TimerEvent: {}
+[3.291044] (-) TimerEvent: {}
+[3.398158] (-) TimerEvent: {}
+[3.408497] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.498553] (-) TimerEvent: {}
+[3.600233] (-) TimerEvent: {}
+[3.706318] (-) TimerEvent: {}
+[3.807855] (-) TimerEvent: {}
+[3.909262] (-) TimerEvent: {}
+[4.010710] (-) TimerEvent: {}
+[4.123747] (-) TimerEvent: {}
+[4.224807] (-) TimerEvent: {}
+[4.328057] (-) TimerEvent: {}
+[4.431283] (-) TimerEvent: {}
+[4.531929] (-) TimerEvent: {}
+[4.602955] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.634737] (-) TimerEvent: {}
+[4.736022] (-) TimerEvent: {}
+[4.838878] (-) TimerEvent: {}
+[4.941741] (-) TimerEvent: {}
+[5.046723] (-) TimerEvent: {}
+[5.086062] (ros2_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.087813] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.148053] (-) TimerEvent: {}
+[5.248834] (-) TimerEvent: {}
+[5.329813] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.349279] (-) TimerEvent: {}
+[5.450458] (-) TimerEvent: {}
+[5.554761] (-) TimerEvent: {}
+[5.655277] (-) TimerEvent: {}
+[5.756713] (-) TimerEvent: {}
+[5.858440] (-) TimerEvent: {}
+[5.960575] (-) TimerEvent: {}
+[6.077091] (-) TimerEvent: {}
+[6.077466] (ros2_custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.122591] (ros2_custom_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[6.122801] (ros2_custom_msgs) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[6.122859] (ros2_custom_msgs) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[6.122905] (ros2_custom_msgs) StderrLine: {'line': b'\n'}
+[6.122952] (ros2_custom_msgs) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[6.122996] (ros2_custom_msgs) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[6.123041] (ros2_custom_msgs) StderrLine: {'line': b'\n'}
+[6.123084] (ros2_custom_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.123126] (ros2_custom_msgs) StderrLine: {'line': b'  CMakeLists.txt:20 (rosidl_target_interfaces)\n'}
+[6.123169] (ros2_custom_msgs) StderrLine: {'line': b'\n'}
+[6.123212] (ros2_custom_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[6.133667] (ros2_custom_msgs) StdoutLine: {'line': b'-- Configuring done (6.0s)\n'}
+[6.173767] (-) TimerEvent: {}
+[6.193499] (ros2_custom_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.200588] (ros2_custom_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[6.201598] (ros2_custom_msgs) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[6.201792] (ros2_custom_msgs) StderrLine: {'line': b'\n'}
+[6.201841] (ros2_custom_msgs) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[6.201888] (ros2_custom_msgs) StderrLine: {'line': b'\n'}
+[6.201931] (ros2_custom_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[6.214595] (ros2_custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/dharani/ros2_ws/build/ros2_custom_msgs\n'}
+[6.241284] (ros2_custom_msgs) CommandEnded: {'returncode': 0}
+[6.242186] (ros2_custom_msgs) JobProgress: {'identifier': 'ros2_custom_msgs', 'progress': 'build'}
+[6.242809] (ros2_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dharani/ros2_ws/build/ros2_custom_msgs', '--', '-j2', '-l2'], 'cwd': '/home/dharani/ros2_ws/build/ros2_custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'dharani', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1587', 'ROS_PACKAGE_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/share', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dharani', 'OLDPWD': '/home/dharani/ros2_ws/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dharani/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dharani', 'WINDOWID': '62919056', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dharani-VirtualBox:@/tmp/.ICE-unix/1334,unix/dharani-VirtualBox:/tmp/.ICE-unix/1334', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/dharani/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-YSsnZRV6Njyg/agent.1586', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/dharani', 'AMENT_PREFIX_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/dharani/ros2_ws/build/ros2_custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/dharani/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[6.274221] (-) TimerEvent: {}
+[6.371661] (ros2_custom_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.374385] (-) TimerEvent: {}
+[6.396047] (ros2_custom_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_ros2_custom_msgs\n'}
+[6.492990] (-) TimerEvent: {}
+[6.601259] (-) TimerEvent: {}
+[6.703966] (-) TimerEvent: {}
+[6.706896] (ros2_custom_msgs) StdoutLine: {'line': b'[  2%] Built target ros2_custom_msgs__rosidl_generator_type_description\n'}
+[6.778235] (ros2_custom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.780669] (ros2_custom_msgs) StdoutLine: {'line': b'creating ros2_custom_msgs.egg-info\n'}
+[6.803995] (ros2_custom_msgs) StdoutLine: {'line': b'writing ros2_custom_msgs.egg-info/PKG-INFO\n'}
+[6.804161] (-) TimerEvent: {}
+[6.804259] (ros2_custom_msgs) StdoutLine: {'line': b'writing dependency_links to ros2_custom_msgs.egg-info/dependency_links.txt\n'}
+[6.804326] (ros2_custom_msgs) StdoutLine: {'line': b'writing top-level names to ros2_custom_msgs.egg-info/top_level.txt\n'}
+[6.804377] (ros2_custom_msgs) StdoutLine: {'line': b"writing manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'\n"}
+[6.805768] (ros2_custom_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.915857] (-) TimerEvent: {}
+[6.933159] (ros2_custom_msgs) StdoutLine: {'line': b"reading manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'\n"}
+[6.933342] (ros2_custom_msgs) StdoutLine: {'line': b"writing manifest file 'ros2_custom_msgs.egg-info/SOURCES.txt'\n"}
+[7.017274] (-) TimerEvent: {}
+[7.058958] (ros2_custom_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_ros2_custom_msgs_egg\n'}
+[7.092974] (ros2_custom_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.131569] (-) TimerEvent: {}
+[7.230308] (ros2_custom_msgs) StdoutLine: {'line': b'[  8%] Built target ros2_custom_msgs__cpp\n'}
+[7.316664] (-) TimerEvent: {}
+[7.418681] (ros2_custom_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__description.c.o\x1b[0m\n'}
+[7.418868] (-) TimerEvent: {}
+[7.429090] (ros2_custom_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[7.524643] (-) TimerEvent: {}
+[7.582847] (ros2_custom_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_custom_msgs/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[7.625590] (-) TimerEvent: {}
+[7.698460] (ros2_custom_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libros2_custom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.725780] (-) TimerEvent: {}
+[7.777078] (ros2_custom_msgs) StdoutLine: {'line': b'[ 19%] Built target ros2_custom_msgs__rosidl_generator_c\n'}
+[7.795842] (ros2_custom_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.798691] (ros2_custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.858562] (-) TimerEvent: {}
+[7.973860] (-) TimerEvent: {}
+[8.036751] (ros2_custom_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_custom_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[8.079062] (ros2_custom_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_custom_msgs/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[8.079264] (-) TimerEvent: {}
+[8.374024] (-) TimerEvent: {}
+[8.465229] (ros2_custom_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.475591] (-) TimerEvent: {}
+[8.546395] (ros2_custom_msgs) StdoutLine: {'line': b'[ 33%] Built target ros2_custom_msgs__rosidl_typesupport_cpp\n'}
+[8.565344] (ros2_custom_msgs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.580571] (-) TimerEvent: {}
+[8.681290] (-) TimerEvent: {}
+[8.785393] (-) TimerEvent: {}
+[8.888094] (-) TimerEvent: {}
+[8.989345] (-) TimerEvent: {}
+[9.003845] (ros2_custom_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_custom_msgs/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[9.038901] (ros2_custom_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.268644] (-) TimerEvent: {}
+[9.374445] (-) TimerEvent: {}
+[9.474926] (-) TimerEvent: {}
+[9.543477] (ros2_custom_msgs) StdoutLine: {'line': b'[ 41%] Built target ros2_custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[9.587635] (-) TimerEvent: {}
+[9.619855] (ros2_custom_msgs) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.688365] (-) TimerEvent: {}
+[9.698768] (ros2_custom_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.789367] (-) TimerEvent: {}
+[9.893823] (-) TimerEvent: {}
+[9.994747] (-) TimerEvent: {}
+[9.997615] (ros2_custom_msgs) StdoutLine: {'line': b'[ 47%] Built target ros2_custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[10.077551] (ros2_custom_msgs) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.108279] (-) TimerEvent: {}
+[10.209705] (-) TimerEvent: {}
+[10.285978] (ros2_custom_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_custom_msgs/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[10.311134] (-) TimerEvent: {}
+[10.411864] (-) TimerEvent: {}
+[10.446058] (ros2_custom_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libros2_custom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.533739] (-) TimerEvent: {}
+[10.588768] (ros2_custom_msgs) StdoutLine: {'line': b'[ 55%] Built target ros2_custom_msgs__rosidl_typesupport_introspection_c\n'}
+[10.603626] (ros2_custom_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_custom_msgs/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[10.608496] (ros2_custom_msgs) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.635454] (-) TimerEvent: {}
+[10.700591] (ros2_custom_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.763391] (-) TimerEvent: {}
+[10.781036] (ros2_custom_msgs) StdoutLine: {'line': b'[ 63%] Built target ros2_custom_msgs__rosidl_typesupport_c\n'}
+[10.863745] (-) TimerEvent: {}
+[10.928758] (ros2_custom_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros2_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_custom_msgs/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[10.964037] (-) TimerEvent: {}
+[11.070245] (-) TimerEvent: {}
+[11.170696] (-) TimerEvent: {}
+[11.271273] (-) TimerEvent: {}
+[11.280605] (ros2_custom_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.361263] (ros2_custom_msgs) StdoutLine: {'line': b'[ 69%] Built target ros2_custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[11.374608] (-) TimerEvent: {}
+[11.397007] (ros2_custom_msgs) StdoutLine: {'line': b'[ 69%] Built target ros2_custom_msgs\n'}
+[11.437097] (ros2_custom_msgs) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.447066] (ros2_custom_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/status_publisher.dir/src/status_publisher.cpp.o\x1b[0m\n'}
+[11.658030] (-) TimerEvent: {}
+[11.734487] (ros2_custom_msgs) StdoutLine: {'line': b'[ 75%] Built target ros2_custom_msgs__py\n'}
+[12.758285] (-) TimerEvent: {}
+[12.850297] (ros2_custom_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_custom_msgs/msg/_robot_status_s.c.o\x1b[0m\n'}
+[12.864310] (-) TimerEvent: {}
+[13.008673] (-) TimerEvent: {}
+[13.048914] (ros2_custom_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library libros2_custom_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[13.109570] (-) TimerEvent: {}
+[13.134077] (ros2_custom_msgs) StdoutLine: {'line': b'[ 80%] Built target ros2_custom_msgs__rosidl_generator_py\n'}
+[13.169876] (ros2_custom_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.248815] (-) TimerEvent: {}
+[13.274506] (ros2_custom_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.316420] (ros2_custom_msgs) StdoutLine: {'line': b'[ 86%] Built target ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[13.345627] (ros2_custom_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.349006] (-) TimerEvent: {}
+[13.456474] (-) TimerEvent: {}
+[13.458515] (ros2_custom_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.517860] (ros2_custom_msgs) StdoutLine: {'line': b'[ 91%] Built target ros2_custom_msgs_s__rosidl_typesupport_introspection_c\n'}
+[13.553975] (ros2_custom_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros2_custom_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.558339] (-) TimerEvent: {}
+[13.661392] (-) TimerEvent: {}
+[13.696443] (ros2_custom_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.854884] (-) TimerEvent: {}
+[13.904742] (ros2_custom_msgs) StdoutLine: {'line': b'[ 97%] Built target ros2_custom_msgs_s__rosidl_typesupport_c\n'}
+[13.955532] (-) TimerEvent: {}
+[14.062119] (-) TimerEvent: {}
+[14.166353] (-) TimerEvent: {}
+[14.270652] (-) TimerEvent: {}
+[14.375405] (-) TimerEvent: {}
+[14.479422] (-) TimerEvent: {}
+[14.583429] (-) TimerEvent: {}
+[14.687450] (-) TimerEvent: {}
+[14.791474] (-) TimerEvent: {}
+[14.895974] (-) TimerEvent: {}
+[14.999835] (-) TimerEvent: {}
+[15.104318] (-) TimerEvent: {}
+[15.204643] (-) TimerEvent: {}
+[15.308428] (-) TimerEvent: {}
+[15.408732] (-) TimerEvent: {}
+[15.512494] (-) TimerEvent: {}
+[15.616316] (-) TimerEvent: {}
+[15.716661] (-) TimerEvent: {}
+[15.822434] (-) TimerEvent: {}
+[15.926906] (-) TimerEvent: {}
+[16.030602] (-) TimerEvent: {}
+[16.134561] (-) TimerEvent: {}
+[16.235094] (-) TimerEvent: {}
+[16.339915] (-) TimerEvent: {}
+[16.441431] (-) TimerEvent: {}
+[16.545394] (-) TimerEvent: {}
+[16.649303] (-) TimerEvent: {}
+[16.753272] (-) TimerEvent: {}
+[16.855411] (-) TimerEvent: {}
+[16.959615] (-) TimerEvent: {}
+[17.063850] (-) TimerEvent: {}
+[17.164696] (-) TimerEvent: {}
+[17.269281] (-) TimerEvent: {}
+[17.373755] (-) TimerEvent: {}
+[17.478247] (-) TimerEvent: {}
+[17.582298] (-) TimerEvent: {}
+[17.686034] (-) TimerEvent: {}
+[17.790040] (-) TimerEvent: {}
+[17.895566] (-) TimerEvent: {}
+[18.000291] (-) TimerEvent: {}
+[18.104318] (-) TimerEvent: {}
+[18.211471] (-) TimerEvent: {}
+[18.315272] (-) TimerEvent: {}
+[18.419007] (-) TimerEvent: {}
+[18.522638] (-) TimerEvent: {}
+[18.626602] (-) TimerEvent: {}
+[18.699665] (ros2_custom_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable status_publisher\x1b[0m\n'}
+[18.732410] (-) TimerEvent: {}
+[18.832839] (-) TimerEvent: {}
+[18.933503] (-) TimerEvent: {}
+[19.013535] (ros2_custom_msgs) StdoutLine: {'line': b'[100%] Built target status_publisher\n'}
+[19.031457] (ros2_custom_msgs) CommandEnded: {'returncode': 0}
+[19.033857] (ros2_custom_msgs) JobProgress: {'identifier': 'ros2_custom_msgs', 'progress': 'install'}
+[19.033918] (-) TimerEvent: {}
+[19.047630] (ros2_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dharani/ros2_ws/build/ros2_custom_msgs'], 'cwd': '/home/dharani/ros2_ws/build/ros2_custom_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'dharani', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1587', 'ROS_PACKAGE_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/share', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/dharani', 'OLDPWD': '/home/dharani/ros2_ws/src', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/dharani/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'dharani', 'WINDOWID': '62919056', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/dharani-VirtualBox:@/tmp/.ICE-unix/1334,unix/dharani-VirtualBox:/tmp/.ICE-unix/1334', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/dharani/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-YSsnZRV6Njyg/agent.1586', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/dharani', 'AMENT_PREFIX_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/dharani/ros2_ws/build/ros2_custom_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/dharani/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/dharani/ros2_ws/install/ros2_custom_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[19.059792] (ros2_custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.060650] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ament_index/resource_index/rosidl_interfaces/ros2_custom_msgs\n'}
+[19.060801] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.json\n'}
+[19.061165] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[19.061799] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[19.061875] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[19.061923] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__functions.c\n'}
+[19.061970] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.c\n'}
+[19.062016] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__functions.h\n'}
+[19.062162] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.h\n'}
+[19.062230] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__description.c\n'}
+[19.062277] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__struct.h\n'}
+[19.062328] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/robot_status.h\n'}
+[19.062372] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.062414] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/library_path.sh\n'}
+[19.063414] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/library_path.dsv\n'}
+[19.063665] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_c.so\n'}
+[19.064663] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_c.so" to ""\n'}
+[19.065064] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[19.065147] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[19.065195] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.065242] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[19.065288] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[19.065387] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[19.065778] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.065833] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[19.066287] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[19.066492] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/robot_status.hpp\n'}
+[19.066554] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[19.066708] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[19.066759] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__traits.hpp\n'}
+[19.066942] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__struct.hpp\n'}
+[19.066990] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.hpp\n'}
+[19.067040] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__builder.hpp\n'}
+[19.067084] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[19.067125] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[19.067399] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.067591] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[19.067860] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/dds_fastrtps\n'}
+[19.068012] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.068060] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.068110] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.068388] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[19.068442] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[19.068488] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[19.068530] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.c\n'}
+[19.068667] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[19.068903] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.068963] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[19.069143] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.069194] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_c.so\n'}
+[19.069238] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[19.069280] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs\n'}
+[19.069553] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg\n'}
+[19.069648] (ros2_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail\n'}
+[19.069694] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.069843] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/include/ros2_custom_msgs/ros2_custom_msgs/msg/detail/robot_status__type_support.cpp\n'}
+[19.069897] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[19.070068] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.070134] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_cpp.so\n'}
+[19.070453] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[19.070624] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/pythonpath.sh\n'}
+[19.070782] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/pythonpath.dsv\n'}
+[19.070962] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info\n'}
+[19.071017] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[19.071061] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[19.071395] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[19.071717] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[19.072083] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs\n'}
+[19.072153] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg\n'}
+[19.072198] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status.py\n'}
+[19.072685] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/__init__.py\n'}
+[19.072742] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status_s.c\n'}
+[19.072788] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so\n'}
+[19.072832] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[19.072874] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/__init__.py\n'}
+[19.072916] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[19.072959] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.072999] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[19.073040] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/_ros2_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.134621] (ros2_custom_msgs) StdoutLine: {'line': b"Listing '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs'...\n"}
+[19.135391] (-) TimerEvent: {}
+[19.135503] (ros2_custom_msgs) StdoutLine: {'line': b"Compiling '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/__init__.py'...\n"}
+[19.135570] (ros2_custom_msgs) StdoutLine: {'line': b"Listing '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg'...\n"}
+[19.135618] (ros2_custom_msgs) StdoutLine: {'line': b"Compiling '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/__init__.py'...\n"}
+[19.135661] (ros2_custom_msgs) StdoutLine: {'line': b"Compiling '/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/msg/_robot_status.py'...\n"}
+[19.143560] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[19.143739] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.143796] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[19.143852] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.143900] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so\n'}
+[19.143943] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/python3.12/site-packages/ros2_custom_msgs/ros2_custom_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[19.143985] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_py.so\n'}
+[19.144027] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/libros2_custom_msgs__rosidl_generator_py.so" to ""\n'}
+[19.144068] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.idl\n'}
+[19.144108] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/msg/RobotStatus.msg\n'}
+[19.145096] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/lib/ros2_custom_msgs/status_publisher\n'}
+[19.146452] (ros2_custom_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/dharani/ros2_ws/install/ros2_custom_msgs/lib/ros2_custom_msgs/status_publisher" to ""\n'}
+[19.146710] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ament_index/resource_index/package_run_dependencies/ros2_custom_msgs\n'}
+[19.146879] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ament_index/resource_index/parent_prefix_path/ros2_custom_msgs\n'}
+[19.146956] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/ament_prefix_path.sh\n'}
+[19.147335] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/ament_prefix_path.dsv\n'}
+[19.147506] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/path.sh\n'}
+[19.147597] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/environment/path.dsv\n'}
+[19.147768] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.bash\n'}
+[19.147843] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.sh\n'}
+[19.148091] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.zsh\n'}
+[19.151777] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/local_setup.dsv\n'}
+[19.151886] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/package.dsv\n'}
+[19.151937] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ament_index/resource_index/packages/ros2_custom_msgs\n'}
+[19.152057] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[19.152104] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.152148] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.152199] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.152241] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[19.152281] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.152322] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.152916] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.153339] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.153409] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[19.153463] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.153568] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.154243] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.154416] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[19.154481] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.154692] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_pyExport.cmake\n'}
+[19.154838] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/export_ros2_custom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.154936] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[19.154983] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.155250] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.155353] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.155693] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.155848] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.156341] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.156802] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgsConfig.cmake\n'}
+[19.156854] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/cmake/ros2_custom_msgsConfig-version.cmake\n'}
+[19.156992] (ros2_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dharani/ros2_ws/install/ros2_custom_msgs/share/ros2_custom_msgs/package.xml\n'}
+[19.157630] (ros2_custom_msgs) CommandEnded: {'returncode': 0}
+[19.185606] (ros2_custom_msgs) JobEnded: {'identifier': 'ros2_custom_msgs', 'rc': 0}
+[19.190000] (-) EventReactorShutdown: {}

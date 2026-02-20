@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_custom_msgs",
+  "non_idl_tuples": [
+    "/home/dharani/ros2_ws/src:msg/RobotStatus.msg"
+  ]
+}

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2_custom_msgs/msg/RobotStatus.msg
+// generated code does not contain a copyright notice
+
+
+module ros2_custom_msgs {
+  module msg {
+    struct RobotStatus {
+      string robot_name;
+
+      double battery_level;
+
+      boolean is_active;
+
+      int32 mission_count;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+{
+  "package_name": "ros2_custom_msgs",
+  "output_dir": "/home/dharani/ros2_ws/build/ros2_custom_msgs/rosidl_generator_type_description/ros2_custom_msgs",
+  "idl_tuples": [
+    "/home/dharani/ros2_ws/build/ros2_custom_msgs/rosidl_adapter/ros2_custom_msgs:msg/RobotStatus.idl"
+  ]
+}
