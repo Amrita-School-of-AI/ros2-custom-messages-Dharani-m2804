@@ -1,0 +1,5 @@
+string robot_name
+float64 battery_level
+bool is_active
+int32 mission_count
+
