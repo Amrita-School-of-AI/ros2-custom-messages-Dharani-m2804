@@ -7,12 +7,21 @@
   <maintainer email="student@university.edu">Student</maintainer>
   <license>Apache-2.0</license>
 
+  <!-- Build tool -->
   <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <!-- Message generation -->
   <build_depend>rosidl_default_generators</build_depend>
-  <depend>rclcpp</depend>
   <exec_depend>rosidl_default_runtime</exec_depend>
 
+  <!-- ROS2 C++ -->
+  <build_depend>rclcpp</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+
+  <!-- Required for custom message packages -->
   <member_of_group>rosidl_interface_packages</member_of_group>
 
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>
